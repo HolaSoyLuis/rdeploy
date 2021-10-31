@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Message from './components/message/Message';
 
 function App() {
   return (
@@ -9,13 +10,16 @@ function App() {
         <p>
           REACT <code>deployment</code> example :D
         </p>
+        <p>
+          <Message />
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Visit react's official page
         </a>
       </header>
     </div>
